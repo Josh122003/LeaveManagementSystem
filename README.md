@@ -1,28 +1,81 @@
-The Student Leave Management System is a web-based platform developed 
-to automate and simplify the process of managing student leave applications in 
-educational settings. This system allows students to request leave electronically, while 
-staff and faculty members can review, approve, or reject requests in a structured 
-manner. The platform enhances transparency, accuracy, and efficiency in handling 
-leave requests by reducing paperwork and manual data entry. 
-Core features include an intuitive interface for submitting leave requests, 
-categorization of leave types (medical, academic, personal, etc.), automated 
-notifications to both students and staff regarding leave status, and integration with 
-attendance records to ensure consistency. The system is customizable to institutional 
-policies, allowing for rule enforcement regarding maximum leave limits, required 
-approvals, and documentation. 
-The Student Leave Management System offers significant advantages, such as 
-improving communication between students and faculty, reducing the risk of lost or 
-delayed applications, and enabling administrators to generate reports and analytics on 
-leave patterns. By digitizing the leave process, institutions can optimize resource 
-management and ensure a more organized approach to student attendance tracking.. 
-By implementing the Student Leave Management System, educational institutions can 
-enhance operational efficiency, minimize administrative errors, and provide students 
-with a more transparent and accessible leave management process
+# **Student Leave Management System**
 
+The **Student Leave Management System** is a web-based platform developed to automate and simplify the process of managing student leave applications in educational settings. This system allows students to request leave electronically, while staff and faculty members can review, approve, or reject requests in a structured manner.
 
- ![image](https://github.com/user-attachments/assets/5778a2d7-55c1-413f-86bc-8d0d8b1f9d96)
- ![image](https://github.com/user-attachments/assets/e6c854fc-e468-49c5-bdaa-304df6253750)
- ![image](https://github.com/user-attachments/assets/b993652d-b03a-488f-9d6d-e8411587db73)
-![image](https://github.com/user-attachments/assets/09d1a020-23ac-491b-901e-745d859d61b0)
+By reducing paperwork and manual data entry, the platform enhances transparency, accuracy, and efficiency in handling leave requests.
 
+---
 
+## **Core Features**
+
+- **User-Friendly Interface**:  
+  Intuitive design for students to submit leave requests effortlessly.
+
+- **Leave Categorization**:  
+  Classify leave types (e.g., medical, academic, personal) for better tracking and policy adherence.
+
+- **Automated Notifications**:  
+  Real-time updates sent to both students and staff regarding leave status.
+
+- **Attendance Integration**:  
+  Synchronization with attendance records ensures consistency.
+
+- **Policy Customization**:  
+  Adapts to institutional policies, including maximum leave limits, required approvals, and documentation.
+
+---
+
+## **Benefits**
+
+- **Improved Communication**:  
+  Facilitates better interaction between students and faculty.
+
+- **Enhanced Transparency**:  
+  Provides students with a clear view of their leave status and policies.
+
+- **Reduced Administrative Burden**:  
+  Eliminates paperwork, minimizes errors, and streamlines the application process.
+
+- **Data Insights**:  
+  Administrators can generate reports and analyze leave patterns for better resource management.
+
+---
+
+## **Technologies Used**
+
+- **Frontend**:  
+  - [ReactJS](https://reactjs.org/) – For building the user interface.
+
+- **Backend**:  
+  - [Node.js](https://nodejs.org/) – JavaScript runtime environment.  
+  - [Express.js](https://expressjs.com/) – Web application framework for Node.js.
+
+- **Database**:  
+  - [MySQL](https://www.mysql.com/) – Relational database management system.
+
+---
+
+## **Screenshots**
+
+### Login Page  
+![Login Page](https://github.com/user-attachments/assets/5778a2d7-55c1-413f-86bc-8d0d8b1f9d96)
+
+### Dashboard  
+![Dashboard](https://github.com/user-attachments/assets/e6c854fc-e468-49c5-bdaa-304df6253750)
+
+### Leave Application Form  
+![Leave Application Form](https://github.com/user-attachments/assets/b993652d-b03a-488f-9d6d-e8411587db73)
+
+### Leave Status  
+![Leave Status](https://github.com/user-attachments/assets/09d1a020-23ac-491b-901e-745d859d61b0)
+
+---
+
+## **Conclusion**
+
+By implementing the **Student Leave Management System**, educational institutions can:  
+- Enhance operational efficiency.  
+- Minimize administrative errors.  
+- Provide students with a more transparent and accessible leave management process.  
+
+This digital solution ensures a more organized approach to student attendance tracking and fosters a collaborative environment for both students and faculty.
