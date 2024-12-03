@@ -1,0 +1,367 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif; /* Modern font */
+    background-color: #e1f5fe; /* Light blue background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-block-size: 100vh;
+    min-block-size: 100vh; /* Full height to center vertically */
+    text-align: justify; /* Justify text for better readability */
+}
+
+/* App Container Styles */
+.app {
+    padding: 50px; /* Increased padding for better readability */
+    max-inline-size: 90%; /* Increased max-width to almost full-screen size */
+    background-color: #ffffff; /* White background for app container */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    line-height: 1.6; /* Better line spacing for readability */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.app:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+/* Header Styles */
+h2 {
+    text-align: center;
+    color: #007bff; /* Soft blue color for headers */
+    margin-block-end: 20px; /* Space below the header */
+    font-size: 30px; /* Slightly larger font size */
+    font-weight: bold; /* Bold for emphasis */
+}
+
+/* Container Styles for Different Sections */
+.login-container,
+.apply-leave-container,
+.student-dashboard,
+.admin-dashboard {
+    margin: 30px 0; /* Vertical spacing */
+    padding: 50px; /* Larger padding for a bigger box */
+    background-color: #b3e5fc; /* Light blue background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-inline-size: 90%; /* Ensure the container takes up a large portion of the page */
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* Full width for form elements */
+    max-inline-size: 100%; /* Full width on small screens */
+    justify-content: space-between; /* Spread content evenly */
+    margin-block-end: 20px; /* Space below form */
+}
+
+/* Input, Select, and Textarea Styles */
+input,
+select,
+textarea {
+    margin: 15px 0; /* Space between inputs */
+    padding: 14px; /* Padding for better touch targets */
+    border: 1px solid #ccc;
+    border-radius: 6px; /* Rounded corners */
+    font-size: 18px; /* Larger font size for better readability */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    inline-size: 100%; /* Full width */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+    outline: none; /* Remove default outline */
+}
+
+/* Button Styles */
+button {
+    padding: 15px; /* Larger padding for buttons */
+    background-color: #007bff; /* Soft blue background for buttons */
+    color: white;
+    border: none;
+    border-radius: 8px; /* Slightly more rounded corners */
+    cursor: pointer;
+    font-size: 18px; /* Larger font size for buttons */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    inline-size: 100%; /* Full width for buttons */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px);
+}
+
+/* Back Button Styles */
+.back-button {
+    margin-block-start: 20px;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* List Styles */
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    inline-size: 100%; /* Full width for list */
+}
+
+li {
+    background-color: #ffffff; /* White background for list items */
+    margin: 20px 0; /* Space between list items */
+    padding: 30px; /* More padding to make list items bigger */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: flex;
+    justify-content: space-between; /* Space between content and buttons */
+    align-items: center; /* Center items vertically */
+}
+
+/* Approve Button Styles */
+.approve-button {
+    padding: 10px;
+    background-color: #4caf50; /* Green background for approve button */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+}
+
+.approve-button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+    transform: translateY(-2px);
+}
+
+/* Deny Button Styles */
+.deny-button {
+    padding: 10px;
+    background-color: #fb1706; /* Red background for deny button */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+}
+
+.deny-button:hover {
+    background-color: #ee0909; /* Darker red on hover */
+    transform: translateY(-2px);
+}
+
+
+/* Logout Button Styles */
+.logout-button {
+    padding: 15px;
+    background-color: #fb1706; /* Red background */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #c62828; /* Darker red on hover */
+    transform: translateY(-2px);
+}
+/* Styles for the leave list */
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 20px 0; /* Space above and below the list */
+}
+
+/* Styles for each leave item */
+.leave-details {
+    background-color: #ffffff; /* White background */
+    margin: 15px 0; /* Space between leave items */
+    padding: 15px; /* Padding for better spacing */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    line-height: 1.6; /* Improved line spacing */
+}
+
+/* Styles for the strong elements */
+.leave-details strong {
+    display: inline-block; /* Make strong elements block level for spacing */
+    margin-inline-end: 8px; /* Space to the right of the label */
+}
+
+/* Individual paragraph styles */
+.leave-details p {
+    margin: 10px 0; /* Space between paragraphs */
+}
+
+/* Cancel Leave Button Styles */
+.cancel-leave-button {
+    margin-block-start: 10px; /* Space above the button */
+    padding: 10px 15px; /* Padding for the button */
+    background-color: #fb1706; /* Red background for cancel button */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+}
+
+/* Button hover effect */
+.cancel-leave-button:hover {
+    background-color: #c62828; /* Darker red on hover */
+    transform: translateY(-2px);
+}
+.leave-details {
+    display: flex;                  /* Use flexbox for layout */
+    align-items: center;           /* Align items vertically centered */
+    gap: 20px;                     /* Space between items */
+}
+
+.leave-details span {
+    white-space: nowrap;           /* Prevent line breaks within the span */
+}
+/* SRM Logo Styles */
+.srm-logo {
+    max-inline-size: 200px; /* Adjust the size of the logo */
+    block-size: auto; /* Maintain aspect ratio */
+    margin: 20px auto; /* Reduced margin to minimize space, centered horizontally */
+    display: block; /* Ensure the image is a block-level element */
+}
+
+.modal-overlay {
+    position: fixed;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    inset-inline-end: 0;
+    inset-block-end: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.confirm-button, .cancel-button {
+    margin: 10px;
+}
+/* Forgot Password Container Styles */
+.forgot-password-container {
+    max-inline-size: 90%; /* Similar to other containers */
+    padding: 50px; /* Consistent padding */
+    background-color: #b3e5fc; /* Light blue background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 30px 0; /* Vertical spacing */
+}
+
+/* Header Styles for Forgot Password */
+.forgot-password-container h2 {
+    text-align: center;
+    color: #007bff; /* Soft blue color for headers */
+    margin-block-end: 20px; /* Space below the header */
+    font-size: 30px; /* Slightly larger font size */
+    font-weight: bold; /* Bold for emphasis */
+}
+
+/* Form Styles within Forgot Password */
+.forgot-password-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* Full width for form elements */
+    max-inline-size: 100%; /* Full width on small screens */
+    justify-content: space-between; /* Spread content evenly */
+}
+
+/* Input Styles */
+.forgot-password-container input {
+    margin: 15px 0; /* Space between inputs */
+    padding: 14px; /* Padding for better touch targets */
+    border: 1px solid #ccc;
+    border-radius: 6px; /* Rounded corners */
+    font-size: 18px; /* Larger font size for better readability */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    inline-size: 100%; /* Full width */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Focus Styles */
+.forgot-password-container input:focus {
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+    outline: none; /* Remove default outline */
+}
+
+/* Button Styles */
+.forgot-password-container button {
+    padding: 15px; /* Larger padding for buttons */
+    background-color: #007bff; /* Soft blue background for buttons */
+    color: white;
+    border: none;
+    border-radius: 8px; /* Slightly more rounded corners */
+    cursor: pointer;
+    font-size: 18px; /* Larger font size for buttons */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    inline-size: 100%; /* Full width for buttons */
+}
+
+/* Button Hover Effect */
+.forgot-password-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px);
+}
+
+/* Success and Error Message Styles */
+.forgot-password-container .success {
+    color: green;
+    text-align: center;
+    margin-block-start: 20px;
+}
+
+.forgot-password-container .error {
+    color: red;
+    text-align: center;
+    margin-block-start: 20px;
+}
+
+/* Back Button Styles */
+.forgot-password-container .back-button {
+    margin-block-start: 20px;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.forgot-password-container .back-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
