@@ -8,14 +8,26 @@ By reducing paperwork and manual data entry, the platform enhances transparency,
 
 ## **Core Features**
 
+## **Screenshots**
+
+### Login Page  
+![Login Page](https://github.com/user-attachments/assets/5778a2d7-55c1-413f-86bc-8d0d8b1f9d96)
+
 - **User-Friendly Interface**:  
   Intuitive design for students to submit leave requests effortlessly.
+  ### Dashboard  
+![Dashboard](https://github.com/user-attachments/assets/e6c854fc-e468-49c5-bdaa-304df6253750)
 
 - **Leave Categorization**:  
   Classify leave types (e.g., medical, academic, personal) for better tracking and policy adherence.
+  ### Leave Application Form  
+![Leave Application Form](https://github.com/user-attachments/assets/b993652d-b03a-488f-9d6d-e8411587db73)
 
 - **Automated Notifications**:  
   Real-time updates sent to both students and staff regarding leave status.
+  ### Leave Status  
+![Leave Status](https://github.com/user-attachments/assets/09d1a020-23ac-491b-901e-745d859d61b0)
+
 
 - **Attendance Integration**:  
   Synchronization with attendance records ensures consistency.
@@ -55,22 +67,6 @@ By reducing paperwork and manual data entry, the platform enhances transparency,
 
 ---
 
-## **Screenshots**
-
-### Login Page  
-![Login Page](https://github.com/user-attachments/assets/5778a2d7-55c1-413f-86bc-8d0d8b1f9d96)
-
-### Dashboard  
-![Dashboard](https://github.com/user-attachments/assets/e6c854fc-e468-49c5-bdaa-304df6253750)
-
-### Leave Application Form  
-![Leave Application Form](https://github.com/user-attachments/assets/b993652d-b03a-488f-9d6d-e8411587db73)
-
-### Leave Status  
-![Leave Status](https://github.com/user-attachments/assets/09d1a020-23ac-491b-901e-745d859d61b0)
-
----
-
 ## **Conclusion**
 
 By implementing the **Student Leave Management System**, educational institutions can:  
@@ -79,3 +75,5 @@ By implementing the **Student Leave Management System**, educational institution
 - Provide students with a more transparent and accessible leave management process.  
 
 This digital solution ensures a more organized approach to student attendance tracking and fosters a collaborative environment for both students and faculty.
+---
+
